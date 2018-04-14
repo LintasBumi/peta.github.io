@@ -25,7 +25,7 @@ app.controller('MainCtrl', function($scope, $http) {
 
   // Create the state data layer and load the GeoJson Data
   var stateLayer = new google.maps.Data();
-  stateLayer.loadGeoJson('https://raw.githubusercontent.com/LintasBumi/peta.github.io/master/kalsel.geojson');
+  stateLayer.loadGeoJson('kalsel.geojson');
 
   // Set and apply styling to the stateLayer
   stateLayer.setStyle(function(feature) {
